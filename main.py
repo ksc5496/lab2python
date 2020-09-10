@@ -27,10 +27,9 @@ def getletterGrade(percentage):
     
 
 def run():
-  percentage = input("Enter your CMPSC 131 grade: ")
-  percentage = float(percentage)
-  print("Your letter grade for CMPSC 131 is " + str(getletterGrade) + ".")
+  percentage = float(input("Enter your CMPSC 131 grade: "))
+  print(f"Your letter grade for CMPSC 131 is {getletterGrade(percentage)}.")
 
 if __name__ == "__main__":
   run()
- 
+
