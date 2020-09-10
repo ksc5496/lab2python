@@ -5,7 +5,7 @@
 # Section: 4
 # Breakout: 18
 
-def getletterGrade(percentage):
+def getLetterGrade(percentage):
   if (percentage >= 93.0):
     return "A"
   elif (percentage >= 90.0):
@@ -28,7 +28,7 @@ def getletterGrade(percentage):
 
 def run():
   percentage = float(input("Enter your CMPSC 131 grade: "))
-  print(f"Your letter grade for CMPSC 131 is {getletterGrade(percentage)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(percentage)}.")
 
 if __name__ == "__main__":
   run()
