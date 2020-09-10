@@ -23,7 +23,7 @@ def getletterGrade(percentage):
   elif (percentage >= 60.0):
     return "D"
   else: 
-    return "F"
+    return "F" 
     
 
 def run():
